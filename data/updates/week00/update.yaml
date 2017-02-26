@@ -1,74 +1,69 @@
 ---
-title: A week of joys and opportunity
-summary: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-  We were on [Hacker News](https://news.ycombinator.com/). Also,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.
-news:
-  - title: Got our *first* customer!
-    kind: joy
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
-    kind: struggle
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
-    kind: learning
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+title: Question Responses
 
----
+A volunteer service app that takes the geolocation of volunteers and shows them the various volunteering options available near them through a regularly updated database of charities or campaigns that require volunteers.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Who is your customer or customers?
+•	Millennials in college - 35 / just out of college
+•	MIddle aged in a full time job 
+•	Parents with kids Kyle with kids
 
-These updates are written in
-[Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+What is their pain?
+•	Time constraint 
+•	Lack of knowledge 
+•	Not a lot of options
 
-You can also use [Nunjucks](https://mozilla.github.io/nunjucks/templating.html)
-to do fancy things like. "Our team name is `{{data.team.name}}`". The content
-will be passed through Nunjucks first and then the Markdown will be rendered.
+What kind of software do you think will solve their pain?
+•	Taking the geolocation of each user and compiling a list of options (of organizations) for them
+•	Also taking into consideration their schedule
+•	Being to see reviews from previous volunteers 
 
-Paragraphs are separated by a blank line.
+How do you know these things?
+•	Personal experience of wanting to do service but being unable to find the time to research things 
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+How will you reach these customers and convert them into users of your app?
+•	College community organizations
+•	Service blogs
+•	Facebook groups 
+•	High school/middle school/school groups 
 
-  * this one
-  * that one
-  * the other one
+Could this potentially be used by millions of people? Why do you think so?
+•	Yes! Think of Yelp, but for volunteer organizations! Human nature to emphatize/ do service. The main thing stopping people is convenience 
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+How do you imagine that you would support this venture? Is it non-profit? Is it for profit?
+•	If for profit: small monthly fee ( a minimum amount of $1.99 - for supporting the app, if they pay anything above 1.99, that will go to charities) 
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+What are the biggest risks? (Imagine you fast forward three months that your idea turns out to be bad and that it fails. What are the top five reasons you think it would have failed?)
+•	Lack of money
+•	Operating costs
+•	Premature scale, growing too fast
 
-You can even write code! For example, some python
-```python
-x = 5
-for i in range(10):
-  print i
+Why would the idea fail? 
+Because people aren’t willing to pay
+•	Even with the app people are not going to volunteer
+•	The team didnt have the right knowledge base to build the startup correctly 
+
+Now that you know the biggest risks, how could you most swiftly allay your fears about them? Can you speak to particular users and ask them particular questions? Can you build a particular "low fidelity" version of your software? Can you do something crazy like "fake" your software using a mix of Google spreadsheets and SMS messages?
+•	We can fake this will you be willing to pay// do you to volunteer/ if you don’t volunteer, why/if you don’t volunteer, would you like to volunteer/-- give diff options for their questions. would having those opps in a simple app increase your likeliness to volunteer. 
+
+If you said yes, would you be willing to pay $2
+•	We have google :) and kyle and TAs and magic 
+
+You will be graded, in part, on the amount of "impact" you can achieve in this class. Here, impact is roughly the amount of value you are adding to people's lives times the number of people using your software at the end of the semester. How can you maximize that? What do you need to build?
+•	Community service enriches people’s lives
+•	How to maximize impact: getting as many organizations and users registered. Send notifications. Implement this in school - make this an app teachers use
+•	Describe to us how the software will function. Try to phrase this in some kind of user narrative: "As a user, I can log in. I can see XYZ, I can send a message to ABC", etc. Include diagrams or mock-ups if they are helpful.
+•	Log in, provide details
+•	A menu with categories to tell you what kind of service
+•	Describe to us the application architecture and technical choices needed to build that software. How is it divided between client and server? How do they communicate? How are you storing data? How will you manage, test, and deploy your code?
+What technology stack are you going to use?
+•	jquery , html, css, SQL, github
+
+Tell us how your software is designed? How do the pieces fit together?
+Geolocation of user and destination are pull vida java / html / css framework into a SQL database or compared across SQL databases to provide a new output from the SQL List that orders results according to the contraints of distance and type.
+
+•	Give a high level review of the SQL table
+User ID, geolocations, service type preference, service types, charity IDs
 ```
 
 or some javascript

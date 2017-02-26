@@ -1,11 +1,11 @@
 ---
 name: Saamjo
-app:
+app: Servicelink
   name:
   url: 
   twitter_username:
   repo: https://github.com/jeshaffer1/blog-starter
-  tagline: Commmunity service near you
+  tagline: Serve your community now
   value: |
     For the busy, principled people
     who struggle to find the time and opportunity for community service
